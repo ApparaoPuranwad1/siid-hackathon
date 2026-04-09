@@ -866,4 +866,9 @@
         <enabled>true</enabled>
         <name>WorkCalibrationUser</name>
     </userPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Asset_Type__c.Asset_Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
 </Profile>
