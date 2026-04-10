@@ -24,7 +24,7 @@ public with sharing class AssetTypeTriggerHandler {
         if (!existing.isEmpty() && existing[0].Asset_Code__c != null) {
             String maxCode = existing[0].Asset_Code__c;
             // Extract the numeric part from the code (e.g., "AT-0001" -> 1)
-            if (mahttps://github.com/bilalhilabi/siid-hackathon.gitxCode.startsWith('AT-')) {
+            if (https://github.com/bilalhilabi/siid-hackathon.gitxCode.startsWith('AT-')) {
                 String numericPart = maxCode.substring(3);
                 try {
                     startNumber = Integer.valueOf(numericPart) + 1;
@@ -50,5 +50,9 @@ public with sharing class AssetTypeTriggerHandler {
         if (!assetsToUpdate.isEmpty()) {
             update assetsToUpdate;
         }
+    }
+
+    public static void thisIsMethod(){
+        String name = 'Apparao';
     }
 }
