@@ -5,6 +5,7 @@ public with sharing class AssetTypeTriggerHandler {
      *
      * @param newRecords List of Asset_Type__c records being inserted
      */
+    //this is normal class i am pushing to git 
     public static void handleAfterInsert(List<Asset_Type__c> newRecords) {
         if (newRecords == null || newRecords.isEmpty()) {
             return;
